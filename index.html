@@ -16,15 +16,22 @@
 <meta name="description" content="Cat Facts">
 <meta name="keywords" content="Cats,Kittens,CatFood,CatBreeds">
 <title> For the Love of Cats </title>
+<link rel="stylesheet" type="text/css" href="LoveofCats.css">
 <!-- Charlotte Tongel, 9/27</-->
 </head>
     
 <body>
     <header>
+        <div class="logo">
     <img src='weblogo.jpg' alt='logo' width='100' height='100'>
-    <div class='topnav'>
-    <!-- add CSS to bar later</-->     
-     <nav>
+   
+  <h1 id="header"> For the Love of Cats</h1>  
+            </div>
+        
+<div class='form'>
+    <button type="button" class="formie"> Sign up for the Newsletter</button></div>
+        
+     <nav class="nav">
          <ul>
         <li><a href='index.html'>Home</a></li>
         <li><a href='CatWalk.html'>Cat Walk</a></li>
@@ -32,46 +39,67 @@
         <li><a href='Standards.html'>Standards</a></li>
          </ul>   
         </nav>
-        </div>
-        <div class='form'>
-            <button type="button"> Sign up for the Newsletter</button></div>
-    </header>
+      
     
-    <section>
-    <h3> Read of the week</h3>
-    <h4> Picking the right cat</h4>
+       
+    </header>
+        <hr>
+    <section class="container">
+     
+    <h1 id="ROTW"> &#128062; Read of the week: <br> <div id="pick">Picking the right cat</div></h1>
+ 
         
-    <!-- add CSS to align later</-->
-        
-        <div class='featured'><img src= "Readofweek.png" alt='read of week img' height='200' width='400'></div>
+        <div class='featured'>
+            <a href="CatWalk.html">
+            <img  id="rotwpic" src= "Readofweek.png" alt='read of week img' height='300' width='600'></a>
+        </div>
+   
+        </section>
+    <hr>
+    <section id="buttons">
         <nav>
-        <button type='button'>Own a cat?</button>
-        <button type="button">Adopting a cat?</button>
+            <a href="Expectations.html">
+        <button id="own" type='button'>Own a cat?</button>
+                </a>
+            <a href="CatWalk.html">
+        <button id="adopting" type="button">Adopting a cat?</button>
+                </a>
         </nav>
     
     </section>
     
-      <!-- add CSS to buttons later to overlay text and buttons</-->
     <section>
     <div class='overlay'>
-        <img src='cateating.png' alt='cat eating' height='400' width='400'>
-        <div class='centered'> <h2>Fine Dining</h2></div>
-        <div class='centered'><h3> How to make sure your cat is eating a healthy meal</h3></div>
-        <button type="button"> Read More</button>
+        <div class="imgcontainer">
+        <img src='cateating.png' alt='cat eating' height='400' width='500'>
+            <div class="textoverlay">
+             <h2>Fine Dining</h2>
+            <h3> How to make sure your cat is eating a healthy meal</h3>
+                <a href="Standards.html">
+            <button class="readmore" type="button"> Read More</button>
+                    </a>
+            </div>
+            </div>
         
-        <img src='catplaying.png' alt='cat playing' height='400' width='500'>
-        <div class='centered'> <h2>Behavior 101</h2></div>
-        <div class='centered'><h3> How to understand your furry friend</h3></div>
-        <button type="button"> Read More</button>
-        
+       <div class="imgcontainer">
+        <img src='catplaying.png' alt='cat playing' height='400' width='600'>
+        <div class="textoverlay">
+        <h2>Behavior 101</h2>
+        <h3> How to understand your furry friend</h3>
+            <a href="Expectations.html">
+        <button class="readmore" type="button"> Read More</button>
+                </a>
         </div>
+        </div>
+        </div>
+    
     </section>
+    
+    
     
     <footer>
     <small>
-        Copyright &copy; For the Love of Cats. </small>
-    
-    
+        Copyright &copy; For the Love of Cats. </small> 
     </footer>
     
     

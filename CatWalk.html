@@ -17,13 +17,21 @@
 <meta name="keywords" content="Cats,Kittens,CatFood,CatBreeds">
 <title> For the Love of Cats </title>
 <!-- Charlotte Tongel, 9/27</-->
+<link rel="stylesheet" type="text/css" href="LoveofCats.css">
 </head>
     <body>
     <header>
+        
+        <div class="logo">
     <img src='weblogo.jpg' alt='logo' width='100' height='100'>
-    <div class='topnav'>
-    <!-- add CSS to bar later</-->     
-     <nav>
+   
+  <h1 id="header"> For the Love of Cats</h1>  
+            </div>
+        
+<div class='form'>
+    <button type="button" class="formie"> Sign up for the Newsletter</button></div>
+        
+     <nav class="nav">
          <ul>
         <li><a href='index.html'>Home</a></li>
         <li><a href='CatWalk.html'>Cat Walk</a></li>
@@ -31,34 +39,85 @@
         <li><a href='Standards.html'>Standards</a></li>
          </ul>   
         </nav>
-        </div>
-        <div class='form'>
-            <button type="button"> Sign up for the Newsletter</button></div>
+
+       
+        <hr>
+   
         
-        <h1> Cat Walk</h1>
-        <h3> Find your purrfect breed</h3>
-        <h4> Hover over an image to learn more</h4>
+        <h1 class="title"> Cat Walk</h1>
+        <div class="spacing">
+        <h3 class="subtitle"> Find your purrfect breed</h3>
+        <h4 class="directions"> Hover over an image to learn more</h4>
+            </div>
     </header>
-        
-            <!-- add CSS hover over later</-->  
+        <br> <br>
     <div class='catwalk'>
         <section>
-        <img src='American.jpg' alt='americanshorthair' height='200'width='200'>
-        <img src='Ragdoll.jpg' alt='ragdoll' height='200'width='200'>
-        <img src='Siamese-Cat.jpg'alt='siamese' height='200'width='200'>
-        <img src='Mainecoon.jpg' alt='mainecoon' height='200'width='250'>
+        <img class="ASH" src='American.jpg' alt='americanshorthair' height='300'width='300' onmouseover="facts(this)" onmouseout="factsout(this)">  
+            
+        <img id="rag" src='Ragdoll.jpg' alt='ragdoll' height='300'width='300' onmouseover="ragfax(this)" onmouseout="ragout(this)">
+            
+        <img id="siamese" src='Siamese-Cat.jpg'alt='siamese' height='300'width='300'onmouseover="siamese(this)" onmouseout="siameseout(this)">
+            
+        <img id="mainecoon" src='Mainecoon.jpg' alt='mainecoon' height='300'width='350' onmouseover="mainecoon(this)" onmouseout="maineout(this)">
         <br>
-        <img src='Persian.jpg' alt='persian' height='200'width='200'>
-        <img src ='Sphynx.jpg' alt='sphynx' height='200'width='200'>
-        <img src='Scottishfold.jpg' alt='scottishfold'height='200'width='200'>
-        <img src="Britishshorthair.jpg" alt='british short hair' height='200'width='200'>
+        <img id="persian" src='Persian.jpg' alt='persian' height='300'width='300' onmouseover="persian(this)" onmouseout="persianout(this)">
+            
+        <img id="sphynx" src ='Sphynx.jpg' alt='sphynx' height='300'width='300' onmouseover="sphynx(this)" onmouseout="sphynxout(this)">
+            
+        <img id="SF" src='Scottishfold.jpg' alt='scottishfold'height='300'width='300' onmouseover="scottish(this)" onmouseout="scottishout(this)">
+            
+        <img id="BSH" src="Britishshorthair.jpg" alt='british short hair' height='300'width='300' onmouseover="british(this)" onmouseout="britishout(this)">
         </section>
-        </div>
+       
+        <script>
+        function facts(img) {
+            img.src="1.jpg";}
+        function factsout(img){
+            img.src="American.jpg"}
+        
+        function ragfax(img){
+            img.src="2.jpg";}
+        function ragout(img){
+            img.src="Ragdoll.jpg"}
+        
+        function siamese(img){
+            img.src="3.jpg";}
+        function siameseout(img){
+            img.src="Siamese-Cat.jpg"}
+            
+        function mainecoon(img){
+            img.src="4.jpg";}
+        function maineout(img){
+            img.src="Mainecoon.jpg"}
+            
+        function persian(img){
+            img.src="5.jpg";}
+        function persianout(img){
+            img.src="Persian.jpg"}
+            
+        function sphynx(img){
+            img.src="6.jpg";}
+        function sphynxout(img){
+            img.src="Sphynx.jpg"}
+            
+        function scottish(img){
+            img.src="7.jpg";}
+        function scottishout(img){
+            img.src="Scottishfold.jpg"}
+            
+        function british(img){
+            img.src="8.jpg";}
+        function britishout(img){
+            img.src="Britishshorthair.jpg"}
+        </script>
+        
         
         
          <footer>
     <small>
         Copyright &copy; For the Love of Cats. </small>
         </footer>
+        
     </body>
 </html>

@@ -1,0 +1,167 @@
+/* Header with Nav Bar */
+.logo{
+   display:grid;
+    align-items:center;
+    grid-template-columns: auto auto;
+    column-gap: 3px;
+    padding-left: 5px;
+    width: 100%;}
+
+#header{
+    color:palevioletred;
+    size: 24px;
+    font-family: "Lucida Console", monospace;}
+
+.nav{
+    font-size: 20px;
+    font-family: "Lucida Console", monospace;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:3;}
+
+li {
+    display: inline;
+    padding: 50px;}
+
+/* Form CSS */
+
+.form{
+   text-align: right;
+    padding-right:100px;
+}
+
+.formie{
+    background-color: palevioletred;
+    padding:15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size:14px;
+    color:white;
+    font-family: "Lucida Console", monospace;
+border-radius:12px;}
+
+/* buttons to specific articles */
+
+#buttons{
+    border-radius:12px;
+    padding-bottom: 10px;}
+
+#own {
+    background-color: palevioletred;
+     padding:15px 32px;
+    text-align:left;
+    font-size:14px;
+    color:white;
+    font-family: "Lucida Console", monospace;
+    margin: 10px;
+border-radius:10px;}
+
+#adopting{
+    background-color: palevioletred;
+     padding:15px 32px;
+    text-align: left;
+    font-size:14px;
+    color:white;
+    font-family: "Lucida Console", monospace;
+    border-radius:10px;}
+
+.readmore {
+    background-color: palevioletred;
+     padding:10px 32px;
+    text-align: left;
+    font-size:14px;
+    color:white;
+    font-family: "Lucida Console", monospace;
+    border-radius:24px;
+}
+
+/* featured article */
+
+.title{
+    text-align:center;
+    font-size:24px;
+}
+
+#ROTW{
+    text-align:center;
+    font-size:40px;
+    border: 1px solid white;
+    background-color: palevioletred;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:100px;
+    padding-bottom:100px;
+    white-space:nowrap;}
+
+#pick {
+    font-size:20px;
+    text-align:center;
+     white-space:nowrap;
+}
+
+.featured{
+    text-align:right;
+    padding-right:400px;
+    padding-left:200px;
+}
+
+.container{
+    display:grid;
+    align-items:center;
+    grid-template-columns: 1fr auto;
+    column-gap: 3px;
+    padding-left: 5px;
+    width: 100%;}
+
+/* articles at bottom overlay css */
+
+.overlay {
+    display:flex;
+    align-items:center;}
+.imgcontainer{
+    position:relative;}
+.imgcontainer img{
+    max-width:100%;
+    padding:3px;
+opacity:0.7;}
+.textoverlay{
+    position:absolute;
+    top:30%;
+    left:0;
+    transform:translate(0,-50%);
+    padding:5px;}
+.textoverlay h2, .textoverlay h3{
+    margin:0
+    font-family: "Lucida Console", monospace;
+    color: black;
+    font-size:18pt;}
+
+
+/* Titles for each page */
+
+.title {
+    font-size:36pt;
+    font-family: "Lucida Console", monospace;}
+
+.subtitle {
+    font-size:28pt;
+    font-family: "Lucida Console", monospace;
+    text-align:center;}
+
+.directions{
+    font-size:20pt;
+    font-family: "Lucida Console", monospace;
+    text-align:center;}
+
+.spacing{
+    line-height: 0.3;}
+
+/* CSS pertaining to images on Cat Walk */
+
+.catwalk {
+    text-align:center;}
+
+
+  
