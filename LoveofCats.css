@@ -89,6 +89,7 @@ border-radius:10px;}
     font-size:40px;
     border: 1px solid white;
     background-color: palevioletred;
+    border-color: palevioletred;
     padding-left: 20px;
     padding-right: 20px;
     padding-top:100px;
@@ -113,7 +114,8 @@ border-radius:10px;}
     grid-template-columns: 1fr auto;
     column-gap: 3px;
     padding-left: 5px;
-    width: 100%;}
+    width: 100%;
+background-color: palevioletred;}
 
 /* articles at bottom overlay css */
 
@@ -163,5 +165,40 @@ opacity:0.7;}
 .catwalk {
     text-align:center;}
 
+/* CSS pertaining to top half of Expectations Page */
 
-  
+.explineup {
+     display:grid;
+    align-items:center;
+    grid-template-columns: auto 1fr;
+    column-gap: 3px;
+    padding-left: 5px;
+    width: 100%;
+    font-family: "Lucida Console", monospace;
+    background-color: palevioletred;
+}
+
+.behavior{
+     display:grid;
+    align-items:center;
+    grid-template-columns: 1fr auto;
+    column-gap: 3px;
+    padding-left: 5px;
+    width: 100%;
+    font-family: "Lucida Console", monospace;
+}
+
+#hissing {
+    text-align:right;
+}
+
+#behave {
+    font-size:12pt;
+    font-weight: normal;
+}
+
+/* CSS pertaining to Standards Page */
+
+.tableline{
+    text-align:center;
+}
