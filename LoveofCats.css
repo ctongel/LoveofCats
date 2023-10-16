@@ -9,7 +9,7 @@
 
 #header{
     color:palevioletred;
-    size: 24px;
+    resize: 24px;
     font-family: "Lucida Console", monospace;}
 
 .nav{
@@ -19,7 +19,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding:3;}
+    padding:3px;}
 
 li {
     display: inline;
@@ -201,4 +201,27 @@ opacity:0.7;}
 
 .tableline{
     text-align:center;
+    padding-left:250px;
+     font-family: "Lucida Console", monospace;
+}
+
+.finedining{
+     display:grid;
+    align-items:center;
+    grid-template-columns: auto 1fr;
+    column-gap: 3px;
+    padding-left: 5px;
+    width: 100%;
+    font-family: "Lucida Console", monospace;
+    background-color: palevioletred;
+}
+
+#catfood{
+    padding-left:200px;
+    padding-right:100px;
+}
+
+.finediningtext{
+    font-size:12pt;
+    font-weight:normal;
 }
