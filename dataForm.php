@@ -31,20 +31,22 @@ if($_SERVER['REQUEST_MODE'] == 'POST')
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Form</title>
+<link rel="stylesheet" type="text/css" href="LoveofCats.css">
 <script>
 </script>
 </head>
-<body>
+<body style="background-color:palevioletred;">
  
+    <div>
  <form id="form1" method="POST">  
-<h1>Contact Us</h1>
-<h5>First Name</h5>
+<h1 style="font-size:30px; color:white;">Contact Us</h1>
+<h5 style="font-size:20px; color:white;">First Name</h5>
 <input name="input1" placeholder="First Name..." style="border-radius: 3px;">
-<h5>Last Name</h5>
+<h5 style="font-size:20px; color:white;">Last Name</h5>
 <input name="input2" placeholder="Last Name..." style="border-radius: 3px;">
-<h5>Email Address</h5>
+<h5 style="font-size:20px; color:white;">Email Address</h5>
 <input name="input3" placeholder="Email Address..." style="border-radius: 3px;">
-<h5>Subject</h5>
+<h5 style="font-size:20px; color:white;">Subject</h5>
 <textarea name="input4" placeholder="Subject..." style="border-radius: 3px;" rows="5"
 cols="30"></textarea>
     
@@ -53,6 +55,7 @@ cols="30"></textarea>
 1rem;">Submit</button>
     
 </form>   
-
+</div>
+        
 </body>
 </html>

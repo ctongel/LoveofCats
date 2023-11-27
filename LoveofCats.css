@@ -7,6 +7,8 @@
     padding-left: 5px;
     width: 100%;}
 
+/* Header coloring and font */
+
 #header{
     color:palevioletred;
     resize: 24px;
@@ -25,12 +27,14 @@ li {
     display: inline;
     padding: 50px;}
 
-/* Form CSS */
+/* Form positioning and styling */
 
 .form{
    text-align: right;
     padding-right:100px;
 }
+
+
 
 .formie{
     background-color: palevioletred;
@@ -117,7 +121,8 @@ border-radius:10px;}
     width: 100%;
 background-color: palevioletred;}
 
-/* articles at bottom overlay css */
+/* articles at bottom overlaying text onto image
+consulted w3bschool for help on this portion */
 
 .overlay {
     display:flex;
@@ -225,3 +230,4 @@ opacity:0.7;}
     font-size:12pt;
     font-weight:normal;
 }
+
